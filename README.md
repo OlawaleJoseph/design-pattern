@@ -1,6 +1,6 @@
 # Design Patterns
 
-## Table of Contents
+## Table of Contnets
 
 - [What is OOP?](#what-is-oop)
 - [What is an Object?](#what-is-an-object)
@@ -35,6 +35,14 @@
 - [What are High-level classes?](#what-are-high-level-classes)
 - [What are the three types of design patterns?](#what-are-the-three-types-of-design-patterns)
 - [What is the creational design patterns](#what-is-the-creational-design-patterns)
+- [What is the Factory Method?](#what-is-the-factory-method)
+- [What is the Abstract Factory Pattern?](#what-is-the-abstract-factory-pattern)
+- [What is the Builder Pattern?](#what-is-the-builder-pattern)
+- [What is the Prototype Pattern?](#what-is-the-prototype-pattern)
+- [What is the Singleton Pattern?](#what-is-the-singleton-pattern)
+- [What are Structural Design Patterns?](#what-are-structural-design-patterns)
+- [What is the Adapter Pattern?](#what-is-the-adapter-pattern)
+- [What is the Bridge Pattern?](#what-is-the-bridge-pattern)
 
 ## What is OOP?
 
@@ -255,6 +263,75 @@ High-level classes contain complex business logic that directs low-level classes
 
 ## What is the creational design patterns
 
-Creational patterns provide various object creation mecha- nisms, which increase flexibility and reuse of existing code.
+Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+
+1. Factory Method
+2. Abstract Factory
+3. Builder
+4. Prototype
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Factory Method?
+
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+![](https://user-images.githubusercontent.com/11765228/74391132-3efe1800-4e3e-11ea-898b-27373980cc77.png)
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Abstract Factory Pattern?
+
+Abstract Factory provides interfaces for creating families of related or dependent objects without specifying their concrete classes.
+
+![](https://user-images.githubusercontent.com/11765228/74391649-ce57fb00-4e3f-11ea-858e-a6539cb38b0e.png)
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Builder Pattern?
+
+The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
+
+![](https://user-images.githubusercontent.com/11765228/74392565-8f777480-4e42-11ea-8417-11bbb9ff6562.png)
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Prototype Pattern?
+
+Prototype allows us to hide the complexity of making new instances from the client. The concept is to copy an existing object rather than creating a new instance from scratch, something that may include costly operations.
+
+![](https://user-images.githubusercontent.com/11765228/74393472-33fab600-4e45-11ea-893a-20a6b746cf89.png)
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Singleton Pattern?
+
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+
+![](https://user-images.githubusercontent.com/11765228/74394336-5d1c4600-4e47-11ea-8a25-a6497efca0b6.png)
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What are Structural Design Patterns?
+
+Structural patterns explain how to assemble objects and class- es into larger structures, while keeping this structures flexible and efficient.
+
+1. Adapter
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Adapter Pattern?
+
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+![](https://user-images.githubusercontent.com/11765228/74394994-162f5000-4e49-11ea-9edb-10e6587477ab.jpg)
+
+**[⬆ Back to Top](#design-patterns)**
+
+## What is the Bridge Pattern?
+
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+
+![](https://user-images.githubusercontent.com/11765228/74395512-7a9edf00-4e4a-11ea-8706-5c7b026140e2.png)
 
 **[⬆ Back to Top](#design-patterns)**
